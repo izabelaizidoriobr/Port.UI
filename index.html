@@ -18,7 +18,11 @@
     <header>
         <div class="menu-content">
             <h1 class="logo"><a href="#">Port.ui</a></h1>
+            <button class="burger" onclick="toggleMenu()">☰</button>
             <nav class="header-menu">
+                <div class="menu-header">
+                    <button class="close" onclick="toggleMenu()">✖</button>
+                </div>
                 <ul class="list-itens">
                     <li><a href="#">Projetos</a></li>
                     <li><a href="#">Sobre mim</a></li>
@@ -27,6 +31,8 @@
             </nav>
         </div>
     </header>
+
+
 
     <main>
         <div class="main-content fade-target">
@@ -174,7 +180,7 @@
                 </a>
 
             </div>
-            <button class="btn01"><a href="#">Ver Projetos</a></button>
+            <!-- <button class="btn01"><a href="#">Ver Projetos</a></button>-->
         </div>
 
 
@@ -220,6 +226,7 @@
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
